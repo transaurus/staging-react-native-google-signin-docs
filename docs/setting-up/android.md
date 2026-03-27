@@ -1,0 +1,55 @@
+---
+sidebar_position: 3
+description: 'Android setup guide for vanilla React Native apps (not Expo). Covers Google project configuration, linking, and `CredentialManager` setup.'
+---
+
+# Android setup guide
+
+:::warning
+If you use Expo, follow [this guide](/setting-up/expo.md) instead. This guide applies to vanilla React Native apps only.
+:::
+
+## Google project configuration
+
+- Follow [this](./get-config-file) guide to set up your project and get the configuration information which you'll need later.
+
+### Without Firebase Authentication
+
+You don't need to do any more modifications.
+
+### With Firebase Authentication
+
+#### 1. Download the configuration file
+
+- Download the configuration file (`google-services.json`) from Firebase. Then, place it into your project according to [these instructions](https://developers.google.com/android/guides/google-services-plugin#adding_the_json_file).
+
+#### 2. Update gradle files
+
+Update `android/build.gradle` with
+
+```groovy title="android/build.gradle"
+buildscript {
+// ...
+    dependencies {
+        // highlight-start
+        classpath 'com.google.gms:google-services:4.4.0' // <--- use this version or newer
+        // highlight-end
+    }
+}
+```
+
+Update `android/app/build.gradle` with
+
+```groovy title="android/app/build.gradle"
+apply plugin: "com.android.application"
+apply plugin: "org.jetbrains.kotlin.android"
+apply plugin: "com.facebook.react"
+// highlight-next-line
+apply plugin: 'com.google.gms.google-services'
+```
+
+This ends the setup for Firebase.
+
+## Rebuild the native project
+
+Do not forget to rebuild the native app after the setup is done.
