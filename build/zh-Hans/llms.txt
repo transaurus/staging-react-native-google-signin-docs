@@ -1,0 +1,32 @@
+# React Native Google Sign In
+
+> Google Sign-In for React Native and Expo apps (Android, iOS, macOS, web). Package: @react-native-google-signin/google-signin
+
+
+## Zh Hans
+
+- [API reference](/zh-Hans/docs/api.md): API reference for `GoogleOneTapSignIn` (Universal) and `GoogleSignin` (Original) modules. Covers `configure()`, `signIn()`, `createAccount()`, `requestAuthorization()`, and all types.
+- [GoogleLogoButton](/zh-Hans/docs/buttons/google-logo-button.md): `GoogleLogoButton` component following Google's official branding guidelines. For native apps only (renders null on web). Customizable size, style, and loading state.
+- [GoogleSigninButton](/zh-Hans/docs/buttons/native.md): Prefer using the Google logo button instead — it's more customizable and visually appealing.
+- [WebGoogleSigninButton](/zh-Hans/docs/buttons/web.md): `WebGoogleSigninButton` component for web apps. Renders null in native apps. Supports size, shape, theme, and locale customization.
+- [React components](/zh-Hans/docs/category/react-components.md): There are two button components exported, one for web and the other for native apps. This is because the two components have a slightly different api.
+- [Setting up](/zh-Hans/docs/category/setting-up.md): Learn how to install and configure the package for different platforms. Obtaining Configuration Information section is required for all platforms.
+- [Configuration Doctor](/zh-Hans/docs/config-doctor.md): CLI tool to diagnose Android signing configuration issues and resolve `DEVELOPER_ERROR`.
+- [Error handling](/zh-Hans/docs/errors.md): Error handling guide. Covers `isErrorWithCode` helper, error codes (`SIGN_IN_CANCELLED`, `NO_SAVED_CREDENTIAL_FOUND`, `PLAY_SERVICES_NOT_AVAILABLE`, etc.), and best practices.
+- [Installation](/zh-Hans/docs/install.md): Install `@react-native-google-signin/google-signin`. Covers paid (Universal Sign In) and free (Original) versions, requirements, and package manager setup.
+- [Integration notes](/zh-Hans/docs/integration-notes.md): - Calling the methods exposed by this package may involve remote network calls and you should thus take into account that such calls may take a long time to complete (e.g. in case of poor network connection).
+- [License](/zh-Hans/docs/license.md): The Original module is licensed as MIT, the Universal sign in module has this license.
+- [Migration guides](/zh-Hans/docs/migrating.md): Migration guides: from Original to Universal Sign In module, and from the legacy JS API to the new API.
+- [Universal sign in](/zh-Hans/docs/one-tap.md): Google's recommended Sign-In API for Android (Credential Manager), iOS/macOS (Google Sign-In SDK), and web. Covers `configure()`, sign-in flows, user data access, and token handling.
+- [Original Google sign in](/zh-Hans/docs/original.md): Legacy `GoogleSignin` module for Android and iOS. Consider migrating to Universal Sign In.
+- [Other libraries](/zh-Hans/docs/other-libs.md): This is a non-exhaustive list of other libraries which are authored / maintained by the author of this library. Maybe you'll find something useful :).
+- [Universal sign in screenshots](/zh-Hans/docs/screenshots.md): Universal Sign In is only available in the licensed version. You can get a license here ⭐️.
+- [Advanced security](/zh-Hans/docs/security.md): Advanced security features: custom nonce support on all platforms and App Check for iOS.
+- [Android setup guide](/zh-Hans/docs/setting-up/android.md): Android setup guide for vanilla React Native apps (not Expo). Covers Google project configuration, linking, and `CredentialManager` setup.
+- [Expo setup](/zh-Hans/docs/setting-up/expo.md): Expo setup guide. Covers config plugin setup and EAS Build configuration for Google Sign-In.
+- [Collecting configuration information](/zh-Hans/docs/setting-up/get-config-file.md): How to obtain `webClientId`, iOS `clientId`, and other configuration values from Google Cloud Console or Firebase. Required before platform setup.
+- [iOS setup guide](/zh-Hans/docs/setting-up/ios.md): iOS setup guide for vanilla React Native apps (not Expo). Covers native module linking, URL schemes, and plist configuration.
+- [Web setup guide](/zh-Hans/docs/setting-up/web.md): Web setup guide. Works with NextJS, Vite, and other web frameworks. Covers Google client ID configuration and script loading.
+- [Testing](/zh-Hans/docs/testing.md): How to mock Google Sign-In in Jest tests for both the Universal and Original modules.
+- [FAQ / Troubleshooting](/zh-Hans/docs/troubleshooting.md): Common issues and solutions for Android (`DEVELOPER_ERROR`, cancelled results) and iOS (missing profile data, URL schemes).
+- [Web support](/zh-Hans/docs/web-support.md): Web platform support. Works with NextJS, Vite, and other web frameworks without React Native Web dependency. Covers setup, rendering modes, and limitations.

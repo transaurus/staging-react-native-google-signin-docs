@@ -1,0 +1,338 @@
+{
+  "/zh-Hans/examples": {
+    "shouldDisplay": true,
+    "hasMarkdown": false,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/github-repo": {
+    "shouldDisplay": true,
+    "hasMarkdown": false,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/api": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/buttons/google-logo-button": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/buttons/native": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/buttons/web": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/category/react-components": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/category/setting-up": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/config-doctor": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/errors": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/install": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/integration-notes": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/license": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/migrating": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/one-tap": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/original": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/other-libs": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/screenshots": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/security": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/setting-up/android": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/setting-up/expo": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/setting-up/get-config-file": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/setting-up/ios": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/setting-up/web": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/testing": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/troubleshooting": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/docs/web-support": {
+    "shouldDisplay": true,
+    "hasMarkdown": true,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  },
+  "/zh-Hans/": {
+    "shouldDisplay": true,
+    "hasMarkdown": false,
+    "contentSelectors": [
+      ".theme-doc-markdown",
+      "main .container .col",
+      "main .theme-doc-wrapper",
+      "article",
+      "main .container",
+      "main"
+    ]
+  }
+}

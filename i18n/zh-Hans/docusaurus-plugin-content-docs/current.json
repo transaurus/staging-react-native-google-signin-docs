@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Setting up": {
+    "message": "Setting up",
+    "description": "The label for category 'Setting up' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Setting up.link.generated-index.description": {
+    "message": "Learn how to install and configure the package for different platforms. Obtaining Configuration Information section is required for all platforms.",
+    "description": "The generated-index page description for category 'Setting up' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.React components": {
+    "message": "React components",
+    "description": "The label for category 'React components' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.React components.link.generated-index.description": {
+    "message": "There are two button components exported, one for web and the other for native apps. This is because the two components have a slightly different api.",
+    "description": "The generated-index page description for category 'React components' in sidebar 'tutorialSidebar'"
+  }
+}
